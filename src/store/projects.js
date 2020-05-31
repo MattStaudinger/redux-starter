@@ -13,7 +13,6 @@ const slice = createSlice({
     },
   },
 });
-console.log(slice, "slice");
 
 export const { projectAdded } = slice.actions;
 export default slice.reducer;
